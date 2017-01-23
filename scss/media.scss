@@ -6,6 +6,7 @@
 
   .jumbo-big {display: none;}
 
+  .bottom a {width: 95%;}
 }
 
 @media screen and (min-width: 768px) {
@@ -43,4 +44,5 @@
     margin-right: auto;
   }
 
+  .bottom a {width: 30%;}
 }
