@@ -1,0 +1,33 @@
+@import './media.scss';
+@import './nav-bar-big.scss';
+@import './nav-bar-sm.scss';
+@import './profiles.scss';
+@import './middle-content.scss';
+@import './projects.scss';
+@import './footer.scss';
+
+*{ box-sizing: border-box }
+
+p {
+  font-family: sans-serif;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container {
+  background-color: #69a77c;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.column-container {
+  font-size: 0;
+  > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: center;
+  }
+}

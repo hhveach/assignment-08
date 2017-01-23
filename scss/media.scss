@@ -1,0 +1,46 @@
+@media screen and (min-width: 0px){
+
+  .nav-bar-big {display: none;}
+
+  .small-but-mighty {display: none;}
+
+  .jumbo-big {display: none;}
+
+}
+
+@media screen and (min-width: 768px) {
+
+  #app-container {padding-top: 47px;}
+
+  .nav-bar-sm {
+    display: block;
+    .nav-hamburger-sm {display: none;}
+  }
+
+  .nav-head-sm {max-width: 20%;}
+
+  .nav-bar-big {display: block;}
+
+  .footer {text-align: right;}
+
+  .small {display: none;}
+
+  .small-but-mighty {display: block;}
+
+  .jumbo-big {display: block;}
+
+  .jumbo-top p {
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2;
+    margin-top: 35px;
+  }
+
+  .grants {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

@@ -1,0 +1,262 @@
+@media screen and (min-width: 0px) {
+  .nav-bar-big {
+    display: none; }
+
+  .small-but-mighty {
+    display: none; }
+
+  .jumbo-big {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  #app-container {
+    padding-top: 47px; }
+
+  .nav-bar-sm {
+    display: block; }
+    .nav-bar-sm .nav-hamburger-sm {
+      display: none; }
+
+  .nav-head-sm {
+    max-width: 20%; }
+
+  .nav-bar-big {
+    display: block; }
+
+  .footer {
+    text-align: right; }
+
+  .small {
+    display: none; }
+
+  .small-but-mighty {
+    display: block; }
+
+  .jumbo-big {
+    display: block; }
+
+  .jumbo-top p {
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2;
+    margin-top: 35px; }
+
+  .grants {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto; } }
+.nav-bar-big {
+  width: 100%;
+  z-index: 10;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  max-width: 1300px; }
+
+.nav-left-big, .nav-right-big {
+  margin: 0;
+  color: #fff; }
+  .nav-left-big > *, .nav-right-big > * {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: bottom; }
+
+.big-left-sm:hover, .big-left-lg:hover, .big-right:hover, .big-left-md:hover {
+  background-color: #2e3e4f; }
+
+.nav-left-big {
+  width: 30%; }
+
+.nav-right-big {
+  width: 20%; }
+
+.nav-empty-big {
+  width: 50%; }
+
+.nav-left-big p {
+  padding: 15px;
+  text-align: center;
+  margin: 0; }
+
+.nav-right-big p {
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.big-left-sm img {
+  height: 35px;
+  margin-bottom: 5px; }
+
+.big-left-sm {
+  width: 15%; }
+
+.big-left-lg {
+  width: 45%; }
+
+.big-left-md {
+  width: 20%; }
+
+.big-right {
+  width: 32%; }
+
+.jumbo-top h1 {
+  font-size: 36px; }
+
+.nav-bar-sm {
+  background-color: #69a77c;
+  text-align: center;
+  width: 100%;
+  height: 100px; }
+
+.nav-head-sm {
+  width: 45%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: 2px solid #ddd; }
+
+.nav-head-sm h6 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #767676;
+  padding: 10px 8px;
+  letter-spacing: 1px;
+  margin: 0 auto; }
+
+.nav-hamburger-sm {
+  z-index: 15;
+  width: 8%;
+  padding: 12px;
+  background-color: #222;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 4%; }
+
+.nav-hamburger-sm i {
+  font-size: 16px; }
+
+.small {
+  background-color: #fff;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.small h1 {
+  font-family: 'Palatino';
+  padding: 0 5%;
+  font-size: 32px;
+  margin-top: 15px; }
+
+.small p {
+  color: #8d8d8d;
+  font-size: 16px;
+  margin: 20px 0; }
+
+.col-img-profiles {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.col-img-profiles a {
+  color: #8de49b;
+  display: inline-block;
+  padding-bottom: 10px; }
+
+.col-img-profiles p {
+  margin: 8px auto 0 auto; }
+
+.thumbnail {
+  padding: 0;
+  border: none;
+  font-weight: 500; }
+
+.small-but-mighty {
+  background-image: url("../assets/solrod-team-background.jpg");
+  background-size: cover; }
+
+.small-but-mighty img {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10% 0; }
+
+.grants {
+  color: #d3d9d4;
+  margin-top: 25px; }
+
+.grants h1 {
+  font-family: 'Palatino'; }
+
+.grants p {
+  margin: 25px auto 35px auto;
+  font-size: 12px; }
+
+.thumbnail {
+  position: relative; }
+
+.text {
+  padding: 18px 0; }
+
+.text h6 {
+  color: #b5b5b5; }
+
+.text p {
+  font-size: 12px;
+  color: #d3d9d4; }
+
+.arrow {
+  position: absolute;
+  right: 3%;
+  bottom: 8%; }
+
+.arrow i {
+  color: #b5b5b5;
+  font-size: 20px; }
+
+.bottom {
+  background-image: url("../assets/solrod-drawingboard-background.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 18% 0; }
+
+.bottom a {
+  width: 95%;
+  font-size: 16px;
+  background-color: #6a819e;
+  border-color: #6a819e;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.footer {
+  background-color: #fff;
+  width: 100%; }
+
+.footer i {
+  font-size: 35px;
+  color: #bcbcbc;
+  padding: 15px;
+  margin: 20px 10px; }
+
+* {
+  box-sizing: border-box; }
+
+p {
+  font-family: sans-serif; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  background-color: #69a77c;
+  max-width: 1300px;
+  margin: 0 auto; }
+
+.column-container {
+  font-size: 0; }
+  .column-container > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
