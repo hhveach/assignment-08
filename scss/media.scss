@@ -13,14 +13,7 @@
 
   #app-container {padding-top: 47px;}
 
-  .nav-bar-sm {
-    display: block;
-    .nav-hamburger-sm {display: none;}
-  }
-
-  .nav-head-sm {max-width: 20%;}
-
-  .nav-bar-big {display: block;}
+  .nav-bar-big {display: none;}
 
   .footer {text-align: right;}
 
@@ -45,4 +38,16 @@
   }
 
   .bottom a {width: 30%;}
+}
+
+@media screen and (min-width: 992px){
+
+  .nav-bar-sm {
+    display: block;
+    .nav-hamburger-sm {display: none;}
+  }
+
+  .nav-head-sm {max-width: 20%;}
+
+  .nav-bar-big {display: block;}
 }
